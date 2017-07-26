@@ -1,0 +1,480 @@
+body
+{
+	background-color: #D6F1F0;
+}
+
+h1
+{
+	text-align: center;
+}
+
+td
+{
+	text-decoration: none;
+}
+
+
+.th
+{
+	background-color: gray;
+	color: white;
+	border: 0px;
+}
+
+.td
+{
+	background-color: #EEF6F9;
+	border: 0px;
+
+}
+
+.td a
+{
+		color: black;
+	text-decoration: none;
+}
+
+.td p
+{
+	width: 150px;
+	text-align: center;
+}
+
+#b1
+{
+	margin-bottom: 5px;
+}
+
+#tb_head
+{
+	border-radius: 10px;
+}
+
+#all
+{
+	border: 1px solid black;
+	padding: 5px;
+}
+
+
+#kiriatas
+{	
+	/*border: 1px solid gray;*/
+	width: 70%;
+	float: left;
+	padding:  20px;
+	margin-left: 20px;
+	background-color: #EEF6F9;
+	border-radius: 10px;
+
+}
+
+#toolbar
+{
+	border: 1px solid gray;
+	padding: 5px;
+	width: 450px;
+	border-radius: 10px;
+}
+
+#toolbar button
+{
+	background-color: transparent;;
+	border: none;
+
+}
+
+#toolbar button:active
+{
+	background-color: #76A4E8;
+}
+
+#kiribawah
+{
+	/*border: 1px solid gray;*/
+	width: 70%;
+	float: left;
+	padding: 20px;
+	margin-left: 20px;
+	margin-top: 20px;
+	background-color: #EEF6F9;
+	border-radius: 10px;
+
+}
+
+
+#kiribawah textarea
+{
+		width: 100%;
+		height:  250px;
+		margin: 5px;
+}
+
+#tombol
+{
+
+	width: 70%;
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+#kanan
+{
+	/*border: 1px solid gray;*/
+	width: 15%;
+	float: right;
+	margin-right: 120px;
+	padding: 0px;
+	/*background-color: #EEF6F9;*/
+	border-radius: 10px;
+}
+
+
+#status
+{
+	border: 1px solid gray;
+}
+
+
+#format
+{
+	/*border: 1px solid gray;*/
+	padding: 15px;
+	margin: 10px;
+	background-color: #EEF6F9;
+	border-radius: 10px;
+}
+
+#format h3
+{
+	margin: 0px;
+}
+
+
+
+#publish
+{
+	/*border: 1px solid gray;*/
+	padding: 15px;
+	margin: 10px;
+	background-color: #EEF6F9;
+	border-radius: 10px;
+
+}
+
+#publish h3
+{
+	margin: 0px;
+}
+
+#publish a
+{
+	text-decoration:none;
+
+}
+
+#kategori
+{
+	/*border: 1px solid gray;*/
+	padding: 15px;
+	margin: 10px;
+	background-color: #EEF6F9;
+	border-radius: 10px;
+}
+
+#kategori h3
+{
+	margin: 0px;
+}
+
+#tombol
+{
+	margin-bottom: 20px;
+}
+
+#btn_save
+{
+	color: white;
+	background-color: #495EFC;
+}
+
+
+#btn_preview
+{
+	color: white;
+	background-color: #495EFC;
+}
+
+#btn_publish
+{
+	color: white;
+	background-color: #495EFC;
+}
+
+
+#cari
+{
+	width: 85%;
+	/*border: 1px solid black;*/
+	text-align: center;
+	margin-left: 100px;
+	height: 50px;
+	background-color: #EEF6F9;
+	border-radius: 5px;
+
+}
+
+#nomor
+{
+	width: 3%;
+	float: left;
+	border: 1px solid black;
+	margin-left: 100px;
+	margin-right: 5px;
+	border-radius: 3px;
+	background-color: #EEF6F9;
+	border-radius: 5px;
+	text-align: center;
+}
+
+#judul_artikel
+{
+	width: 30%;
+	float: left;
+	border: 1px solid black;
+	background-color: #EEF6F9;
+	border-radius: 5px;
+	text-align: center;
+	margin-right: 5px;
+}
+
+#penulis
+{
+	width: 20%;
+	float: left;
+	border: 1px solid black;
+	background-color: #EEF6F9;
+	border-radius: 5px;
+	text-align: center;
+	margin-right: 5px;
+}
+
+#head_kategori
+{
+	width: 10%;
+	float: left;
+	border: 1px solid black;
+	background-color: #EEF6F9;
+	border-radius: 5px;
+	text-align: center;
+	margin-right: 5px;
+}
+
+#tanggal
+{
+	width: 10%;
+	float: left;
+	border: 1px solid black;
+	background-color: #EEF6F9;
+	border-radius: 5px;
+	text-align: center;
+	margin-right: 5px;
+}
+
+#aksi
+{
+	width: 10%;
+	float: left;
+	border: 1px solid black;
+	background-color: #EEF6F9;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.isi_no
+{	
+	margin-top: 10px;
+	width: 3%;
+	float: left;
+	/*border: 1px solid black;*/
+	margin-left: 100px;
+
+	margin-right: 5px;
+
+
+}
+
+.isi_isi_no
+{
+
+	/*border: 1px solid black;*/
+	height: 50px;
+	margin-bottom: 5px;
+		vertical-align: center;
+}
+
+
+.isi_judul
+{
+	width: 30%;
+	float: left;
+	/*border: 1px solid black;*/
+	margin: 10px 5px 5px 0;
+
+}
+
+.isi_isi_judul
+{
+
+	/*border: 1px solid black;*/
+	height: 50px;
+	margin-bottom: 5px;
+	text-decoration:none; 
+	vertical-align: bottom: ;
+
+}
+
+
+.isi_judul .isi_isi_judul a
+ {
+
+	text-decoration:none; 
+	color: black;
+
+}
+.isi_penulis
+{
+	width: 20%;
+	float: left;
+	/*border: 1px solid black;*/
+	margin-top: 10px;
+	margin: 10px 5px 5px 0;
+
+}
+
+.isi_isi_penulis
+{
+	/*border: 1px solid black;*/
+	height: 50px;
+	margin-bottom: 5px;
+	/*margin-top: 10px;*/
+	/*padding-top: 5px;*/
+}
+
+.isi_penulis .isi_isi_penulis label
+{
+	margin-top: 10px;
+}
+
+
+.isi_kategori
+{
+	width: 10%;
+	float: left;
+	/*border: 1px solid black;*/
+	margin-top: 10px;
+	margin: 10px 5px 5px 0;
+}
+
+.isi_isi_kategori
+{
+
+	/*border: 1px solid black;*/
+	height: 50px;
+	margin-bottom: 5px;
+}
+
+.isi_tanggal
+{
+	width: 10%;
+	float: left;
+	/*border: 1px solid black;*/
+	margin-top: 10px;
+	margin: 10px 5px 5px 0;
+}
+
+.isi_isi_tanggal
+{
+	/*border: 1px solid black;*/
+	height: 50px;
+	margin-bottom: 5px;
+
+}
+
+
+.isi_aksi
+{
+	width: 10%;
+	float: left;
+	/*border: 1px solid black;*/
+		margin-top: 10px;
+	margin: 10px 5px 5px 0;
+}
+
+.isi_isi_aksi
+{
+
+	/*border: 1px solid black;*/
+	height: 50px;
+	margin-bottom: 5px;
+
+}
+
+.isi_no .isi_isi_no
+{
+
+	text-align: center;
+	background-color: #EEF6F9;
+	border-radius: 5px;
+}
+
+.isi_judul .isi_isi_judul
+{
+
+	text-align: center;
+	background-color: #EEF6F9;
+	border-radius: 5px;
+}
+
+.isi_penulis .isi_isi_penulis
+{
+
+	text-align: center;
+	background-color: #EEF6F9;
+	border-radius: 5px;
+}
+
+.isi_kategori .isi_isi_kategori 
+{
+
+	text-align: center;
+	background-color: #EEF6F9;
+	border-radius: 5px;
+}
+
+
+.isi_tanggal .isi_isi_tanggal
+{
+
+	text-align: center;
+	background-color: #EEF6F9;
+	border-radius: 5px;
+}
+
+
+.isi_aksi .isi_isi_aksi
+{
+
+	text-align: center;
+	background-color: #EEF6F9;
+	border-radius: 5px;
+}
+
+
+.btn_aksi
+{
+	color: white;
+	background-color: #495EFC;
+	border-radius: 5px;
+}

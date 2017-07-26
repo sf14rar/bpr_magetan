@@ -1,0 +1,476 @@
+
+
+
+
+header
+{
+	position: fixed;
+	width: 100%;
+	
+}
+
+
+h4{
+	color: ##01020B:;
+	font-size: 13px;
+	font: calibri;
+}
+
+ #gambar_atas
+{
+	
+	width: 100%;
+	height: 100px;
+}
+
+#gambar_head
+{
+	width: 500px;
+	height: 300px;
+	margin-left: 60px;
+	margin-top: 20px ;
+	float: center;
+
+
+}
+
+#head
+{
+	/*border: 1px solid grey;*/
+	background-color: #F2F3F3;
+	margin-right: 10px;
+
+}
+
+#head h3
+{
+	text-align: center;
+}
+
+#head h3 a
+{
+	text-decoration: none;
+	color: red;
+}
+
+.berita
+{
+
+	width: 80%;
+	/*margin-right: auto;*/
+	margin-left: 10px;
+	/*border: 1px solid grey;*/
+	background-color: #F2F3F3;
+	/*margin-right: 10px;*/
+	padding: 10px;
+}
+
+.gambar_berita{
+	width: 150px;
+	height: 150px;
+	float: left;
+	margin:5px;
+}
+
+#topik
+{
+	margin: 10px 10px 10px 10px;
+
+}
+
+.gambar_topik
+{
+	width: 25%;
+	height: 70%;
+	float: left;
+	margin: 10px 10px 10px 10px;	
+	
+}
+
+.judul_topik a
+{
+	margin-top: 50px;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+}
+
+.isi_topik
+{
+	border: 1px solid gray;
+	padding-right: 10px; 
+	width: 300px;
+	height: 100px;
+}
+
+
+.isi_topik a:hover
+{
+	color: blue;
+}
+
+a.sub_judul
+{
+	text-decoration: none;
+}
+
+#foto
+{
+	border: 1px solid gray;
+}
+
+#foto h3
+{
+	text-align: center;
+	font-weight: bold;
+	color: red;
+}
+
+#foto a
+{
+	text-decoration: none;
+	color: black;
+	font-size: 16px;
+	margin:10px 20px 10px 20px;
+	color: blue;
+}
+
+
+
+#foto p
+{
+	font-size: 20px;
+	text-align: center;
+	/*font-weight: bold;*/
+	
+}
+
+.foto_gede
+{	
+	margin: 0px 10px 10px 10px;
+	width: 90%;
+	height: 30%;
+}
+
+.foto_cilik
+{	
+	margin-left: 10px;
+	width: 70px;
+	height: 70px;
+}
+
+#gambar
+{	
+	display: block;
+	width:900px;
+	height: 400px;
+	position: relative;
+	margin:  auto;
+}
+body
+ { 
+ 	background-color: black;
+ 	/*margin-bottom: 100px;*/
+}
+
+h1
+{
+	color: red;
+	text-align: center;;
+}
+.berita a
+{
+	text-decoration: none;
+}
+
+.berita h3 a
+{
+	color: black;
+}
+
+.div_comen
+{
+	/*border: 1px solid gray;*/
+}
+
+#inp_komen
+{
+	margin-left: 120px;
+}
+
+#inp_komen textarea
+{
+	margin-left: 0px;
+	width: 50%;
+	height:  80px;
+}
+
+.icon_komen
+{
+	height: 30px;
+	width : 30px;
+
+}
+
+#login
+{
+	border: 1px;
+}
+
+
+h2.comment
+{
+	margin-left: 150px;
+}
+.gambar_comen
+{	
+	display: block;
+	margin-left: 20px;
+	margin-right: 20px;
+	width: 50px;
+	float: left;
+}
+
+.gambar_admin
+{
+	display: block;
+	margin-left: 150px;
+	margin-right: 20px;
+	width: 50px;
+	float: left;
+}
+ 
+.nama_comen
+{
+	font-size: 20px;
+	color: blue;
+	margin-left: 20px;
+}
+.nama_admin
+{
+	font-size: 20px;
+	color: blue;
+	/*margin-left: 0px;*/
+}
+
+.comen
+{
+	margin-left: 20px;
+}
+
+
+.coment
+{
+	margin-left: 50px;
+	font-size: 30px;
+	color: #0FBE49;
+}
+
+.balas
+{
+	margin-left: 150px;
+}
+h3.membalas
+{
+	font: arial;
+	color: #000000;
+	margin-left: 150px;
+}
+
+#kiri {
+    width: 60%;
+    /*background-color: red;*/
+    margin-left: 40px;
+    /* float: left; */
+    display: inline-block;
+    border-right: 1px solid grey;
+}
+
+#isi
+{
+    background: white;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    border-bottom: 1px solid black;
+    border: 1px;
+    padding: 0px 0px 0px 0px;
+}
+
+#isi_detail
+{
+	background: white;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    border-bottom: 1px solid black;
+    border: 1px;
+    padding: 0px 0px 0px 0px;
+    border-bottom: 1px solid gray;
+
+}
+
+
+#kanan {
+    padding: 5;
+    display: inline-block;
+    width: 32%;
+    /*background-color: blue;*/
+    float: right;
+    margin-right: 20px;
+}
+.sumber
+{
+	margin-left: 30px;
+}
+
+#nav 
+{
+    margin: 0;
+    padding: 0;
+    overflow:hidden ;
+    background-color: #333;
+
+}
+
+#nav li
+{
+	float: left;
+	text-align: center;
+	list-style-type: none;
+}
+
+#nav li a
+{
+	display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+}
+
+#nav li a:hover
+{
+	background-color: blue;
+}
+
+#link_sumber
+{
+	text-decoration: none;
+	color: black;
+}
+
+#link_sumber:hover
+{
+	color: red;
+	
+}
+
+#judul
+{
+	font-size: 40px;
+	color: red;
+	text-align: center; 
+}
+
+#posting
+{
+	font-size: 14px;
+	font: calibri;
+	margin-left: 20px;
+}
+
+#header
+{
+	background :#F5FFFF;
+	display: block;
+	font:calibri;
+	text-align: center;
+	margin-left: 50px;
+	color: red;
+}
+
+#badan
+{
+	display: block;
+	background-color: white;
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	padding-bottom: 0px;
+
+
+}
+
+#footer
+{	
+ 	background: white;
+    display: inline-block;
+    font: calibri;
+    text-align: center;
+    color: red;
+    width: 80%;
+    /* height: 30px; */
+    margin-top: 0px;
+    margin-right: auto;
+    margin-left: 130px;
+    padding-top: 0px;
+
+}
+
+
+#footer a
+{
+	font-size: 18px;
+	vertical-align: center;
+}
+
+ul.list li
+{
+	font: arial;
+	font-size: 14px;
+	color: black;
+	font-style: italic;
+	font-weight: bolder;
+	text-decoration: none;
+}
+
+ul.#list_juga li
+{
+	font: arial;
+	font: arial;
+	font-size: 20px;
+	color: black;
+
+}
+
+#baca_juga
+{
+	margin-left: 70px;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+ul li.list 
+{
+	margin-left: 70px;
+	font-size: 18px;
+	width: 500px;
+
+	
+}
+ul li.list a 
+{
+	text-decoration: none;
+	color: black;
+}
+
+ul li.list a:hover
+{
+	color: blue;
+}
+
+
+
